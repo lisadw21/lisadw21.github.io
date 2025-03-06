@@ -8,11 +8,11 @@
 :root {
    --primary-bg: #f9fafb;
    --secondary-bg: #ffffff;
-   --card-bg: #f9f9f9; /* Card background */
+   --card-bg: #edf6f9; /* Card background */
    --header-bg: #006d77; /* Navy-ish header background */
    --text-color: #2c3e50; /* Dark grayish-blue text */
    --accent-color: #005f73; /* blue accent color */
-   --accent-color2: #ef233c
+   --accent-color2: #ef233c;
    --button-bg: #ef233c;
    --button-hover-bg: #d90429;
 }
@@ -188,7 +188,7 @@ section h2 {
 .experience-card,
 .education-card {
    background: var(--card-bg);
-   border-left: 4px solid var( --accent-color2);
+   border-left: 4px solid var( --accent-color);
    padding: 20px;
    border-radius: 5px;
    flex: 1 1 calc(50% - 20px);
